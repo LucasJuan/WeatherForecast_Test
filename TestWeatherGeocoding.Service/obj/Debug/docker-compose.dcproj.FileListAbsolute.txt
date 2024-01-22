@@ -1,0 +1,17 @@
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\WeatherGeocoding.API.deps.json
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\WeatherGeocoding.API.runtimeconfig.json
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\appsettings.Development.json
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\appsettings.json
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\WeatherGeocoding.API.exe
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\WeatherGeocoding.API.dll
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\WeatherGeocoding.Domain.dll
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\WeatherGeocoding.API.pdb
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\bin\Debug\WeatherGeocoding.Domain.pdb
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\ljgso\OneDrive\Área de Trabalho\TestWeatherGeoCoding\WeatherForecast\TestWeatherGeocoding.Service\obj\Debug\docker-compose.dcproj.CopyComplete

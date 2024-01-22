@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  weathergeocoding.api:
+    image: ${DOCKER_REGISTRY-}weathergeocodingapi
+    build:
+      context: .
+      dockerfile: WeatherGeoCoding/Dockerfile

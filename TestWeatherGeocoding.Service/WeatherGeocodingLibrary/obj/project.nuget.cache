@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ie5BqGDh0Z1h7cgTK0y2iK/dXLZW9nx+T/x70tOv+d3lp+LC+BP7tGF/QiYxKqj7q3tOc0wZNuudsRNLDIjQkw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ljgso\\OneDrive\\Área de Trabalho\\Teste para enviar\\WeatherForecast_Test\\TestWeatherGeocoding.Service\\WeatherGeocodingLibrary\\WeatherGeocoding.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ljgso\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ljgso\\.nuget\\packages\\microsoft.extensions.options\\8.0.1\\microsoft.extensions.options.8.0.1.nupkg.sha512",
+    "C:\\Users\\ljgso\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
