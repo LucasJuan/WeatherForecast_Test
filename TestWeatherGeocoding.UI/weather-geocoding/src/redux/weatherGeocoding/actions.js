@@ -3,7 +3,6 @@ import weatherGeocodingActions from './actionsType';
 
 export const getData = (data) => async (dispatch) => {
     try {
-        debugger
         const encodedAddress = encodeURIComponent(data);
         const response = await instance.get(`GetWeatherForecast?address=${encodedAddress}`);
         if (response && response.data && response.data.success) {
