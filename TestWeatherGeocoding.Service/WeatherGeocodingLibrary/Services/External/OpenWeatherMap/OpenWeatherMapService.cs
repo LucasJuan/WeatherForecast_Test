@@ -58,18 +58,7 @@ public class OpenWeatherMapService : IOpenWeatherMapService
 
                     if (result.Properties.ForecastGridData is not null)
                     {
-                        var dataGrid = await _httpClient.GetAsync(result.Properties.ForecastGridData);
-
-                        if (dataGrid.IsSuccessStatusCode)
-                        {
-                            string dataGridContent = await dataGrid.Content.ReadAsStringAsync();
-                            var dataGridResult = JsonSerializer.Deserialize<WeatherForecastResult>(dataGridContent, jsonSerializerOptions);
-                            return dataGridResult is not null ? dataGridResult
-                                         : new WeatherForecastResult($"Error to Deserialize DataGrid Response API provided by US National Weather Service");
-
-                        }
-                        else
-                            return new WeatherForecastResult($"Error to Call DataGrid API provided by US National Weather Service: {(int)dataGrid.StatusCode} - {dataGrid.ReasonPhrase}");
+                        return await GetForecastGridData(jsonSerializerOptions, result);
 
                     }
                     else
@@ -127,5 +116,22 @@ public class OpenWeatherMapService : IOpenWeatherMapService
         {
             return new GeocodingResult($"Error to call API Geocoding: {ex.Message}");
         }
+    }
+
+    private async Task<WeatherForecastResult> GetForecastGridData(JsonSerializerOptions jsonSerializerOptions, GeoJsonLDContext result)
+    {
+        var dataGrid =
+            await _httpClient.GetAsync(result.Properties.ForecastGridData);
+
+        if (dataGrid.IsSuccessStatusCode)
+        {
+            string dataGridContent = await dataGrid.Content.ReadAsStringAsync();
+            var dataGridResult = JsonSerializer.Deserialize<WeatherForecastResult>(dataGridContent, jsonSerializerOptions);
+            return dataGridResult is not null ? dataGridResult
+                         : new WeatherForecastResult($"Error to Deserialize DataGrid Response API provided by US National Weather Service");
+
+        }
+        else
+            return new WeatherForecastResult($"Error to Call DataGrid API provided by US National Weather Service: {(int)dataGrid.StatusCode} - {dataGrid.ReasonPhrase}");
     }
 }
