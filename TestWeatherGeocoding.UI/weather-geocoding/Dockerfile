@@ -15,13 +15,13 @@ COPY . .
 
 ARG REACT_APP_PORT
 
-ENV REACT_APP_PORT 3000
+ENV REACT_APP_PORT 7000
 
 # Build the Application
 RUN npm run build
 
 # Expose the port the application will run on
-EXPOSE 3000
+EXPOSE 7000
 
 # Command to start the app
 CMD ["npm", "start"]

@@ -1,7 +1,8 @@
 import axios from 'axios';
-
+const uri =process.env.REACT_APP_LINK_API
+debugger
 const instance = axios.create({
-  baseURL: 'https://localhost:7151/api/WeatherGeocode',
+  baseURL: uri,
   headers: {
     'Content-Type': 'application/json',
     'Access-Control-Allow-Origin': '*',
