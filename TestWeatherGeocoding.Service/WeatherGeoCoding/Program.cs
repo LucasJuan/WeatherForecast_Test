@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.OpenApi.Models;
 using System.Text.Json;
 using WeatherGeocoding.API.Filters;
 using WeatherGeoCoding.Configuration;
@@ -20,6 +21,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers(options =>
 {
     options.Filters.Add<ResponseObjectTFilter>();
+});
+
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Test Weather Forecast API", Version = "v1" });
 });
 
 var app = builder.Build();

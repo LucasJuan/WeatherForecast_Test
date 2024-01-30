@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeatherGeocoding.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4065d1aebaf9c8919c46456007a66c73dbbeb233")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53efcd2e65dff03fa0783e43f01f136ef09f53bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeatherGeocoding.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeatherGeocoding.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

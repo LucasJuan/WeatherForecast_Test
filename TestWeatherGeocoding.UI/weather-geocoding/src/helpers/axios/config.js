@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://localhost:62526/api/WeatherGeocode',
+  baseURL: 'https://localhost:7151/api/WeatherGeocode',
   headers: {
     'Content-Type': 'application/json',
     'Access-Control-Allow-Origin': '*',
